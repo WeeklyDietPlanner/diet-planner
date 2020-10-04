@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  font-weight: bolder;
+  color: lightcoral;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-width: thin;
+  border-style: inherit;
+  border-bottom: 1px solid #ddd;
+
+  padding: 2em;
+  margin: 3em;
+  border-radius: 15px;
+}
+
+table {
+  margin-left: 10em;
+}
+
+#days {
+  background-color: #329086;
+  color: khaki;
+  text-transform: uppercase;
+}
+
+#blank {
+  background-color: #44c5b7;
+  border: initial;
+  border-bottom: 1px solid #ddd;
+  color: red;
+  font-style: italic;
+}
+
+#meals {
+  background-color: #44c5b7;
+}
+
+#options {
+  background-color: mintcream;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+#monday {
+  background-color: rgba(15, 88, 55, 0.7);
+}
+
+#tuesday {
+  background-color: rgba(21, 45, 84, 0.8);
+}
+
+#wednesday {
+  background-color: rgba(84, 75, 197, 0.6);
+}
+
+#thursday {
+  background-color: rgba(138, 112, 196, 0.9);
+}
+
+#friday {
+  background-color: rgba(157, 130, 178, 0.8);
+}
+
+#saturday {
+  background-color: rgba(112, 0, 47, 0.6);
+}
+#sunday {
+  background-color: rgba(75, 7, 0, 0.9);
+}
